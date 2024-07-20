@@ -1,0 +1,135 @@
+.container {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 30, 118, 1) 26%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main{
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+.h5{
+    size: 200px;
+}
+
+body {
+    color: aliceblue;
+}
+
+.sec1 {
+    height: 600px;
+    border-width: 2px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sec2 {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.inputsec {
+    background-color: #fff;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 7px;
+}
+
+.sec2>h1{
+    color: red;
+    font-size: 40px;
+}
+.sec2>div>h5{
+    color: blueviolet;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.inputsec {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    background-color: #f9f9f9; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: auto; 
+}
+
+.inputsec input[type="text"] {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+.inputsec button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #364ff4; 
+    color: white;
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.inputsec button:hover {
+    background-color: #882121; 
+}
+
+.todosection {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 203px; 
+    width: 300px;
+    overflow-y: auto; 
+    margin-bottom: 200px;
+    margin-left: 40px;
+
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-bottom: 1px solid #eee;
+}
+
+.task p {
+    margin: 0;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.delete-button {
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #d32f2f;
+}
